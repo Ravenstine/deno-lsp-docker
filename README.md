@@ -11,10 +11,6 @@ Proof of concept for running the Deno Language Server in a Docker container for 
 
 ## Installation
 
-```sh
-make
-```
-
 Open the project in VS Code and type **cmd + shift + p** to select "Developer: Reload Window" or "Deno: Restart Language Server".
 
 ## Use

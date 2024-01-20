@@ -2,12 +2,7 @@ version: "3.8"
 
 services:
   deno:
-    build:
-      context: .
-      dockerfile_inline: |
-        FROM docker.io/denoland/deno:distroless-1.39.4
-        WORKDIR ${PROJECT_DIRECTORY}
-    profiles:
-      - no-run
+    image: docker.io/denoland/deno:distroless-1.39.4
     volumes:
       - ${PROJECT_DIRECTORY}:${PROJECT_DIRECTORY}
+    working_dir: ${PROJECT_DIRECTORY}
