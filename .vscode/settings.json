@@ -1,0 +1,11 @@
+{
+    "deno.path": "deno.sh",
+    "typescript.tsserver.experimental.enableProjectDiagnostics": false,
+    "editor.defaultFormatter": "denoland.vscode-deno",
+    "deno.internalDebug": true,
+    "deno.enable": true,
+    "deno.config": "deno.jsonc",
+    "deno.enablePaths": [
+        "./main.ts"
+    ]
+}
